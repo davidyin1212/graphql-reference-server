@@ -155,6 +155,7 @@ type User {
   sentMessages: [Message!]
   updatedAt: DateTime!
   token: String!
+  metaData: Json
 }
 
 type PaymentAccount {
